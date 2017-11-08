@@ -29,6 +29,12 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem 'jquery-turbolinks'
 
+gem 'declarative_authorization', git: 'https://github.com/stffn/declarative_authorization'
+
+
+
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
