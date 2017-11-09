@@ -1,5 +1,11 @@
 <p id="notice"><%= notice %></p>
 
+<p>
+  <strong><%=current_user.name%></strong>
+  <%= image_tag current_user.avatar.url %>
+</p>
+
+
 <h1>Listing Books</h1>
 
 <table>
@@ -25,5 +31,10 @@
 </table>
 
 <br>
+
+
+
+
+
 
 <%= link_to 'New Book', new_book_path %>

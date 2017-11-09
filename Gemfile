@@ -31,6 +31,8 @@ gem 'jquery-turbolinks'
 
 gem 'declarative_authorization', git: 'https://github.com/stffn/declarative_authorization'
 
+gem 'carrierwave', '~> 1.0'
+
 
 
 
